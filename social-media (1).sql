@@ -129,9 +129,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `profile`, `cover`, `bio`, `email`, `password`, `interaction`) VALUES
-(1, 'Soe Nyi Nyi Aung', '650ee65958214_5348981.png', 'banner.jpg', 'I am programmer I have no life', 'soenyi5002@gmail.com', '0eb647233a6275f9e49fd29170900796', NULL),
-(2, 'Soe Nyi', '650fa77925505_ba0d53f2945b995c5b95b32f1a7bead8.jpg', '651033e7b0463_83139073.png', 'Hello Programmers', 'lusifersoe@gmail.com', '0eb647233a6275f9e49fd29170900796', NULL),
-(3, 'Aung Aung', '650fc5342b109_What is Weak Narrow AI Here Are 8 Practical Examples.jpg', 'banner.jpg', 'I am not a hacker. I am helper. Don&#039;t attack normal users.', 'aungaung@gmail.com', '0eb647233a6275f9e49fd29170900796', NULL);
+(1, 'Soe Nyi Nyi Aung', '650ee65958214_5348981.png', 'banner.jpg', 'I am programmer I have no life', 'soenyi5002@gmail.com', '', NULL),
+(2, 'Soe Nyi', '650fa77925505_ba0d53f2945b995c5b95b32f1a7bead8.jpg', '651033e7b0463_83139073.png', 'Hello Programmers', 'lusifersoe@gmail.com', '', NULL),
+(3, 'Aung Aung', '650fc5342b109_What is Weak Narrow AI Here Are 8 Practical Examples.jpg', 'banner.jpg', 'I am not a hacker. I am helper. Don&#039;t attack normal users.', 'aungaung@gmail.com', '', NULL);
 
 --
 -- Indexes for dumped tables
